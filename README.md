@@ -61,6 +61,8 @@ DCMC-Fusion/
 ├── LICENSE
 └── README.md
 
+```
+
 ### 📁 `data/`
 
 The [`data/`](data/) directory contains the input data and configuration files required to reproduce the experiments.
