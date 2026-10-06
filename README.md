@@ -1,6 +1,6 @@
 # DCMC-Fusion: Data-Centric and Model-Centric Ensemble Learning for Audio Deepfake Detection
 
-**Dora María Ballesteros · Daniel Suárez · [otros autores]**
+**Dora María Ballesteros · Daniel Suárez · **
 
 ---
 
