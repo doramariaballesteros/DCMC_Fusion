@@ -76,17 +76,29 @@ The [`data/`](data/) directory contains the input data and configuration files r
 
 ### 📓 `notebooks/`
 
-The [`notebooks/`](notebooks/) directory contains the complete experimental implementation.
+The [`notebooks/`](notebooks/) directory contains the complete experimental implementation and results visualization.
 
-The notebook [`Fusion_Classifiers_Hyperparameter_Search.ipynb`](notebooks/Fusion_Classifiers_Hyperparameter_Search.ipynb) performs the hyperparameter selection for the fusion classifiers.
+#### Hyperparameter selection
 
-The remaining notebooks implement the DCMC-Fusion experiments according to the number of architectures included in each configuration:
+- [`Fusion_Classifiers_Hyperparameter_Search.ipynb`](notebooks/Fusion_Classifiers_Hyperparameter_Search.ipynb) — performs the hyperparameter selection for the four fusion classifiers.
+
+#### DCMC-Fusion experiments
+
+The DCMC-Fusion experiments are organized according to the number of architectures included in each configuration:
 
 - [`DCMC_Fusion_K1.ipynb`](notebooks/DCMC_Fusion_K1.ipynb) — combinations with **1 architecture**.
 - [`DCMC_Fusion_K2.ipynb`](notebooks/DCMC_Fusion_K2.ipynb) — combinations with **2 architectures**.
 - [`DCMC_Fusion_K3.ipynb`](notebooks/DCMC_Fusion_K3.ipynb) — combinations with **3 architectures**.
 - [`DCMC_Fusion_K4.ipynb`](notebooks/DCMC_Fusion_K4.ipynb) — combinations with **4 architectures**.
 - [`DCMC_Fusion_K5.ipynb`](notebooks/DCMC_Fusion_K5.ipynb) — configuration with **all 5 architectures**.
+
+#### Baseline
+
+- [`One_Hard_Voting_Baseline.ipynb`](notebooks/One_Hard_Voting_Baseline.ipynb) — evaluates the **One-Hard Voting** baseline using the same architecture combinations and test partition considered for DCMC-Fusion.
+
+#### Results visualization
+
+- [`Global_Results_Visualization.ipynb`](notebooks/Global_Results_Visualization.ipynb) — generates the global **Accuracy**, **Precision-macro**, and **F1-macro** figures used to compare DCMC-Fusion with the One-Hard Voting baseline.
 
 ### 📊 `results/`
 
