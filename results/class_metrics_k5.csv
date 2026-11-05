@@ -1,0 +1,9 @@
+K,architectures,classifier,class,precision,recall,f1,support
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,Logistic Regression,natural,0.7904411764705882,0.5764075067024129,0.6666666666666666,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,Logistic Regression,synthetic,0.6666666666666666,0.8471849865951743,0.7461629279811098,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,Random Forest,natural,0.8709677419354839,0.5067024128686327,0.6406779661016949,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,Random Forest,synthetic,0.6521739130434783,0.9249329758713136,0.7649667405764967,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,XGBoost,natural,0.868995633187773,0.5335120643431636,0.6611295681063123,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,XGBoost,synthetic,0.6634429400386848,0.9195710455764075,0.7707865168539326,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,SVM,natural,0.9315789473684211,0.4745308310991957,0.6287744227353463,373
+5,resnet50 + densenet121 + inception_v3 + resnet34 + vgg16,SVM,synthetic,0.6474820143884892,0.9651474530831099,0.77502691065662,373
