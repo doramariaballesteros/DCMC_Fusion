@@ -38,7 +38,7 @@ Each architecture contributes four features, corresponding to the inference prob
 
 The following figure illustrates the **31 datasets**, highlighting the architecture combinations and the number of features associated with each value of $K$.
 
-![Organization of the 31 Datasets by K](results/figures/datasets.png)
+![Organization of the 31 Datasets by K](results/datasets.png)
 
 *Figure 2. Organization of the 31 datasets according to the number and composition of deep learning architectures. Each architecture contributes four spectral representation features.*
 
