@@ -45,12 +45,6 @@ In addition, the framework is compared with individual deep learning detectors a
 The repository is organized into three main directories: [`data/`](data/), [`notebooks/`](notebooks/), and [`results/`](results/).
 
 ```text
-
-## 📂 Repository Structure
-
-The repository is organized into three main directories: [`data/`](data/), [`notebooks/`](notebooks/), and [`results/`](results/).
-
-```text
 DCMC-Fusion/
 │
 ├── data/
@@ -101,8 +95,6 @@ DCMC-Fusion/
 │
 ├── LICENSE
 └── README.md
-```
-
 ```
 
 ---
