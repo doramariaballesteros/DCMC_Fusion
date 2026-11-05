@@ -45,6 +45,12 @@ In addition, the framework is compared with individual deep learning detectors a
 The repository is organized into three main directories: [`data/`](data/), [`notebooks/`](notebooks/), and [`results/`](results/).
 
 ```text
+
+## 📂 Repository Structure
+
+The repository is organized into three main directories: [`data/`](data/), [`notebooks/`](notebooks/), and [`results/`](results/).
+
+```text
 DCMC-Fusion/
 │
 ├── data/
@@ -59,23 +65,19 @@ DCMC-Fusion/
 ├── notebooks/
 │   ├── Best_Fusion_Configuration.ipynb
 │   ├── Best_individual_model.ipynb
-│   │
 │   ├── DCMC_Fusion_K1_Timed.ipynb
 │   ├── DCMC_Fusion_K2_Timed.ipynb
 │   ├── DCMC_Fusion_K3_Timed.ipynb
 │   ├── DCMC_Fusion_K4_Timed.ipynb
 │   ├── DCMC_Fusion_K5_Timed.ipynb
-│   │
 │   ├── Fusion_Classifiers_Hyperparameter_Search_k1.ipynb
 │   ├── Fusion_Classifiers_Hyperparameter_Search_k2.ipynb
 │   ├── Fusion_Classifiers_Hyperparameter_Search_k3.ipynb
 │   ├── Fusion_Classifiers_Hyperparameter_Search_k4.ipynb
 │   ├── Fusion_Classifiers_Hyperparameter_Search_k5.ipynb
-│   │
 │   ├── One_Hard_Voting_Baseline.ipynb
 │   ├── Soft_Voting_baseline.ipynb
 │   ├── Weighted_voting_baseline.ipynb
-│   │
 │   ├── results_data_centric.ipynb
 │   └── results_model_contric.ipynb
 │
@@ -86,14 +88,12 @@ DCMC-Fusion/
 │   ├── class_metrics_k4.csv
 │   ├── class_metrics_k5.csv
 │   ├── class_metrics_one_hard.csv
-│   │
 │   ├── global_metrics_k1.csv
 │   ├── global_metrics_k2.csv
 │   ├── global_metrics_k3.csv
 │   ├── global_metrics_k4.csv
 │   ├── global_metrics_k5.csv
 │   ├── global_metrics_one_hard.csv
-│   │
 │   ├── soft_voting_class_metrics.csv
 │   ├── soft_voting_global_metrics.csv
 │   ├── weighted_averaging_class_metrics.csv
@@ -101,6 +101,8 @@ DCMC-Fusion/
 │
 ├── LICENSE
 └── README.md
+```
+
 ```
 
 ---
