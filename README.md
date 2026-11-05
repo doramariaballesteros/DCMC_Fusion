@@ -15,7 +15,15 @@ The framework is built from **20 previously trained deep learning models**, obta
 
 Rather than directly combining the final decisions of these models, DCMC-Fusion uses their **inference probabilities as input features for a second-level classifier**.
 
-The experimental design evaluates all possible combinations of architectures:
+The following graphical abstract illustrates the proposed framework, its experimental design, and the main classification result.
+
+![DCMC-Fusion Graphical Abstract](results/figures/Graphical_abstract.png)
+
+*Figure 1. Overview of the DCMC-Fusion framework, integrating data-centric ensemble composition and model-centric fusion classifiers.*
+
+### Dataset Organization
+
+The experimental design evaluates all possible combinations of the five architectures, grouped according to the number of architectures included in each combination ($K$).
 
 | K | Architectures per combination | Datasets | Features per dataset | Fusion configurations |
 |---|---|---|---|---|
@@ -26,17 +34,30 @@ The experimental design evaluates all possible combinations of architectures:
 | 5 | 5 | 1 | 20 | 4 |
 | **Total** | | **31** | | **124** |
 
+Each architecture contributes four features, corresponding to the inference probabilities obtained from the four spectral representations.
+
+The following figure illustrates the **31 datasets**, highlighting the architecture combinations and the number of features associated with each value of $K$.
+
+![Organization of the 31 Datasets by K](results/figures/datasets.png)
+
+*Figure 2. Organization of the 31 datasets according to the number and composition of deep learning architectures. Each architecture contributes four spectral representation features.*
+
+### Fusion Classifiers and Experimental Analysis
+
 For each dataset, four machine learning classifiers are evaluated as fusion mechanisms:
 
 **Logistic Regression (LR), Random Forest (RF), XGBoost (XGB), and Support Vector Machine (SVM).**
 
-This results in **124 experimental configurations**, enabling the analysis of three complementary aspects:
+The resulting **124 experimental configurations** enable the analysis of three complementary aspects:
 
 - **Data-centric analysis:** investigates the effects of architecture composition and the number of architectures combined.
 - **Model-centric analysis:** examines the influence of the second-level fusion classifier.
 - **Joint analysis:** evaluates the interaction between input feature configurations and fusion mechanisms.
 
 In addition, the framework is compared with individual deep learning detectors and three probability/decision-level fusion baselines: **One-Hard Voting, Soft Voting, and Weighted Averaging**.
+
+---
+
 
 ---
 
