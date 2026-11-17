@@ -17,7 +17,7 @@ Rather than directly combining the final decisions of these models, DCMC-Fusion 
 
 The following graphical abstract illustrates the proposed framework, its experimental design, and the main classification result.
 
-![DCMC-Fusion Graphical Abstract](results/Graphical_abstract.png)
+![DCMC-Fusion Graphical Abstract](results/Graphical_abstract_v2.png)
 
 *Figure 1. Overview of the DCMC-Fusion framework, integrating data-centric ensemble composition and model-centric fusion classifiers.*
 
